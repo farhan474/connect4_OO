@@ -58,7 +58,7 @@ class Game {
 	
 
 	placeInTable(y, x) {
-		console.log(`y = ${y}, x = ${x}`);
+		
 		const piece = document.createElement('div');
 		piece.classList.add('piece');
 		piece.classList.add(`p${this.currPlayer}`);
